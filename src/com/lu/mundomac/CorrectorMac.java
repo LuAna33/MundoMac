@@ -7,11 +7,15 @@ public class CorrectorMac {
    private double precioCorrector;
    private static int contadorCorrectorMac;
 
+    public CorrectorMac() {
+        this.idCorrectorMac = ++contadorCorrectorMac;
+    }
+
     public CorrectorMac(String colorCorrector, double precioCorrector) {
         this.colorCorrector = colorCorrector;
         this.precioCorrector = precioCorrector;
-
     }
+
     public String getColorCorrector() {
         return colorCorrector;
     }
