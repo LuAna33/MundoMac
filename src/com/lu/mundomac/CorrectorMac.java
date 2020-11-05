@@ -4,7 +4,7 @@ public class CorrectorMac {
 
    private int idCorrectorMac;
    private String colorCorrector;
-   private double precioCorrector;
+   private double precioCorrector =1000;
    private static int contadorCorrectorMac;
 
     public CorrectorMac() {

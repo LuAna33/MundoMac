@@ -5,7 +5,7 @@ public class LabialMac {
     private int idLabialMac;
     private String colorLabial;
     private String tipoLabial;
-    private double precioLabial;
+    private double precioLabial = 500;
     private static int contadorLabialMac;
 
     public LabialMac(){
