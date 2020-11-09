@@ -20,12 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6f9e12-18ba-4e51-a7ba-99c2a8d90eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorCorrector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorLabial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorRimmel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tipomac/TipoLabial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tipomac/TipoRimmel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos/AccesoDatosImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datos/IAccesodatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excepciones/AccesoDatosExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excepciones/EscrituraDatosExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/excepciones/LecturaDatosExcepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servicio/CatalogoProductosImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/SetMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/SetMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/ProductosMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/ProductoMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/servicio/ICatalogoProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/servicio/ICatalogoProductos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +39,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -52,7 +56,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Catalogo_Pelis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/excepciones" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="datos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LuAna\Desktop\MundoMac\src\excepciones" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.MundoMac">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -114,30 +126,30 @@
       <screen x="0" y="0" width="1093" height="574" />
     </state>
     <state x="139" y="0" key="#Plugins/0.0.1093.574@0.0.1093.574" timestamp="1604946093600" />
-    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1604949661952">
+    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1604952911985">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1093.574@0.0.1093.574" timestamp="1604949661952" />
+    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1093.574@0.0.1093.574" timestamp="1604952911985" />
     <state x="330" y="47" key="FileChooserDialogImpl" timestamp="1604945713023">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
     <state x="330" y="47" key="FileChooserDialogImpl/0.0.1093.574@0.0.1093.574" timestamp="1604945713023" />
     <state x="413" y="60" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604526199027" />
-    <state width="1019" height="118" key="GridCell.Tab.0.bottom" timestamp="1604949296430">
+    <state width="1019" height="118" key="GridCell.Tab.0.bottom" timestamp="1604954339336">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1019" height="118" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1604949296430" />
-    <state width="1019" height="118" key="GridCell.Tab.0.center" timestamp="1604949296429">
+    <state width="1019" height="118" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1604954339336" />
+    <state width="1019" height="118" key="GridCell.Tab.0.center" timestamp="1604954339336">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1019" height="118" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1604949296429" />
-    <state width="1019" height="118" key="GridCell.Tab.0.left" timestamp="1604949296429">
+    <state width="1019" height="118" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1604954339336" />
+    <state width="1019" height="118" key="GridCell.Tab.0.left" timestamp="1604954339336">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1019" height="118" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1604949296429" />
-    <state width="1019" height="118" key="GridCell.Tab.0.right" timestamp="1604949296430">
+    <state width="1019" height="118" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1604954339336" />
+    <state width="1019" height="118" key="GridCell.Tab.0.right" timestamp="1604954339336">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
-    <state width="1019" height="118" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1604949296430" />
+    <state width="1019" height="118" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1604954339336" />
   </component>
 </project>

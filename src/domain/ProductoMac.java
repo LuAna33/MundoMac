@@ -1,13 +1,13 @@
 package domain;
 
-public class ProductosMac {
+public class ProductoMac {
 
         private String nombreProducto;
 
-        public ProductosMac(){
+        public ProductoMac(){
         }
 
-        public ProductosMac(String nombreProducto){
+        public ProductoMac(String nombreProducto){
             this.nombreProducto = nombreProducto;
         }
 
