@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f6f9e12-18ba-4e51-a7ba-99c2a8d90eb5" name="Default Changelist" comment="" />
+    <list default="true" id="3f6f9e12-18ba-4e51-a7ba-99c2a8d90eb5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/servicio/ICatalogoProductos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/BaseMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/BaseMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/CorrectorMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/CorrectorMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mundomac/MundoMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mundomac/MundoMac.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +37,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jqJacHwxRX5Lklmo2lgrZWoyTc" />
   <component name="ProjectViewState">
@@ -20,7 +50,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Desktop/CursoJava/DeCeroAMaster/FundamentosJava/LabFinal" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Catalogo_Pelis" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -34,6 +66,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -47,10 +80,26 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="413" y="60" key="FileChooserDialogImpl" timestamp="1604526199027">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="139" y="0" key="#Plugins" timestamp="1604946093600">
+      <screen x="0" y="0" width="1093" height="574" />
     </state>
+    <state x="139" y="0" key="#Plugins/0.0.1093.574@0.0.1093.574" timestamp="1604946093600" />
+    <state x="330" y="47" key="FileChooserDialogImpl" timestamp="1604945713023">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="330" y="47" key="FileChooserDialogImpl/0.0.1093.574@0.0.1093.574" timestamp="1604945713023" />
     <state x="413" y="60" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604526199027" />
   </component>
 </project>
