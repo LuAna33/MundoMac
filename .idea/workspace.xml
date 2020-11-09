@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6f9e12-18ba-4e51-a7ba-99c2a8d90eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/domain/ProductosMac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorCorrector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorLabial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tipomac/ColorRimmel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tipomac/TipoLabial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tipomac/TipoRimmel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/LabialMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/LabialMac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mundomac/MundoMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mundomac/MundoMac.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
