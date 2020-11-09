@@ -5,7 +5,7 @@ public class BaseMac {
     private int idBaseMac;
     private String tipoBase;
     private String colorBase;
-    private double precioBase = 1500;
+    private double precioBase;
     private static int contadorBaseMac;
 
     public BaseMac() {
