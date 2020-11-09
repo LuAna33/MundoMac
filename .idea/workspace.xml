@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f6f9e12-18ba-4e51-a7ba-99c2a8d90eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/servicio/ICatalogoProductos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/ProductosMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/BaseMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/BaseMac.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/CorrectorMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/CorrectorMac.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/LabialMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/LabialMac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lu/mundomac/RimmelMac.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mundomac/MundoMac.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mundomac/MundoMac.java" afterDir="false" />
     </list>
@@ -36,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Catalogo_Pelis" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MundoMac">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="MundoMac" />
@@ -65,6 +64,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MundoMac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mundomac.MundoMac" />
+      <module name="MundoMac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mundomac.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MundoMac" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -96,10 +113,30 @@
       <screen x="0" y="0" width="1093" height="574" />
     </state>
     <state x="139" y="0" key="#Plugins/0.0.1093.574@0.0.1093.574" timestamp="1604946093600" />
+    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1604949661952">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="352" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1093.574@0.0.1093.574" timestamp="1604949661952" />
     <state x="330" y="47" key="FileChooserDialogImpl" timestamp="1604945713023">
       <screen x="0" y="0" width="1093" height="574" />
     </state>
     <state x="330" y="47" key="FileChooserDialogImpl/0.0.1093.574@0.0.1093.574" timestamp="1604945713023" />
     <state x="413" y="60" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604526199027" />
+    <state width="1019" height="118" key="GridCell.Tab.0.bottom" timestamp="1604949296430">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1019" height="118" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1604949296430" />
+    <state width="1019" height="118" key="GridCell.Tab.0.center" timestamp="1604949296429">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1019" height="118" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1604949296429" />
+    <state width="1019" height="118" key="GridCell.Tab.0.left" timestamp="1604949296429">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1019" height="118" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1604949296429" />
+    <state width="1019" height="118" key="GridCell.Tab.0.right" timestamp="1604949296430">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1019" height="118" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1604949296430" />
   </component>
 </project>
