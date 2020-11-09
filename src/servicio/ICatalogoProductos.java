@@ -2,9 +2,9 @@ package servicio;
 
 public interface ICatalogoProductos {
 
-        void agregarProducto (String nombrePelicula);
+        void agregarProducto (String nombreProducto);
         void listarProductos();
-        void buscarProducto(String buscar);
+        void buscarProducto(String buscarProducto);
         void iniciarCatalogoProductos();
     }
 
