@@ -22,15 +22,12 @@ public class LabialMac {
     public String getColorLabial() {
         return colorLabial;
     }
-
     public void setColorLabial(String colorLabial) {
         this.colorLabial = colorLabial;
     }
-
     public String getTipoLabial() {
         return tipoLabial;
     }
-
     public void setTipoLabial(String tipoLabial) {
         this.tipoLabial = tipoLabial;
     }
@@ -38,7 +35,6 @@ public class LabialMac {
     public double getPrecioLabial() {
         return precioLabial;
     }
-
     public void setPrecioLabial(double precioLabial) {
         this.precioLabial = precioLabial;
     }
