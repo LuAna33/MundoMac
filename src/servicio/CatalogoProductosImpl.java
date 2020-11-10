@@ -1,13 +1,11 @@
 package servicio;
 
-import datos.AccesoDatosImpl;
-import datos.IAccesodatos;
+import datos.*;
 import domain.ProductoMac;
-import excepciones.AccesoDatosExcepciones;
-import excepciones.LecturaDatosExcepciones;
+import excepciones.*;
 
 public class CatalogoProductosImpl implements ICatalogoProductos {
-    private final IAccesodatos datos;
+    private final IAccesoDatos datos;
 
     public CatalogoProductosImpl(){
         this.datos = new AccesoDatosImpl("catalogoProductosMac.txt");

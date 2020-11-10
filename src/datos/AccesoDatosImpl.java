@@ -1,50 +1,47 @@
 package datos;
 
 import domain.ProductoMac;
-import excepciones.AccesoDatosExcepciones;
-import excepciones.LecturaDatosExcepciones;
+import excepciones.*;
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AccesoDatosImpl {
+public class AccesoDatosImpl implements IAccesoDatos{
+
     private String archivoDatos;
 
     public AccesoDatosImpl(String archivoDatos){
 
         this.archivoDatos = archivoDatos;
     }
-
-    @Override
+        @Override
     public boolean existe() throws AccesoDatosExcepciones {
         File archivo = new File(archivoDatos);
         return archivo.exists();
     }
-
     @Override
     public List<ProductoMac> listar() throws LecturaDatosExcepciones {
         File archivo = new File(archivoDatos);
-        List<ProductoMac> productos = new ArrayList<ProductoMac>();
-
+        List<ProductoMac> productosMac = new ArrayList<>();
         try {
             BufferedReader entrada = new BufferedReader(new FileReader(archivo));
             String linea = null;
             linea = entrada.readLine();
             while(linea != null){
-                ProductoMac producto = new ProductoMac(linea);
-                productos.add(producto);
+                ProductoMac productoMac = new ProductoMac(linea);
+                productosMac.add(productoMac);
                 linea = entrada.readLine();
             }
             entrada.close();
         } catch (FileNotFoundException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcepciones("Se produjo un error al listar peliculas:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo un error al listar los productos:" + a.getMessage());
         } catch (IOException a) {
             a.printStackTrace();
-            throw new LecturaDatosExcepciones("Se produjo un error al listar peliculas:" + a.getMessage());
+            throw new LecturaDatosExcepciones("Se produjo un error al listar los productos:" + a.getMessage());
         }
-        return productos;
+        return productosMac;
     }
 
     @Override
