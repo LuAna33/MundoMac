@@ -15,6 +15,13 @@ public class CatalogoProductosImpl implements ICatalogoProductos {
     public void agregarProducto(String nombreProducto) {
         ProductoMac productoMac = new ProductoMac(nombreProducto);
         boolean anexar = false;
+        try {
+            anexar = datos.existe();
+            datos.escribir(productoMac, anexar);
+        } catch (AccesoDatosExcepciones accesoDatosExcepciones) {
+            accesoDatosExcepciones.printStackTrace();
+            System.out.println("Se ha producido un error. No ha sido posible agregar la Pelicula");
+        }
     }
 
     @Override
